@@ -122,11 +122,11 @@ model Guild {
     createdAt     DateTime   @default(now())
     errorColour   String     @default("Red")
     feedback      Feedback[]
-    footer        String?    @default("Discord Tickets by eartharoid")
+    footer        String?    @default("Discord Tickets by eartharoid | Modifed by Kyvrixon Development")
     id            String     @id @db.VarChar(19)
-    locale        String     @default("en-GB")
+    locale        String     @default("en-US")
     logChannel    String?    @db.VarChar(19)
-    primaryColour String     @default("#009999")
+    primaryColour String     @default("#dfbb18")
     staleAfter    Int?
     successColour String     @default("Green")
     tags          Tag[]

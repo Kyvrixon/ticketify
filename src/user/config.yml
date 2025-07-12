@@ -17,7 +17,7 @@
 logs:
   files:
     directory: ./logs
-    enabled: true
+    enabled: false
     keepFor: 30
   level: info
 presence:

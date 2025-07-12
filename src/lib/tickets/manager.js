@@ -1049,9 +1049,9 @@ module.exports = class TicketManager {
 	 * @param {import("discord.js").ChatInputCommandInteraction|import("discord.js").ButtonInteraction} interaction
 	 */
 	async beforeRequestClose(interaction) {
+		await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 		const ticket = await this.getTicket(interaction.channel.id);
 		if (!ticket) {
-			await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 			const {
 				errorColour,
 				footer,
