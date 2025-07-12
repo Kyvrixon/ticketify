@@ -1,1 +1,1 @@
-Original repo: https://github.com/discord-tickets/bot
+> Original repo: https://github.com/discord-tickets/bot
