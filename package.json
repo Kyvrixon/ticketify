@@ -17,8 +17,7 @@
 		"postinstall": "node scripts/postinstall",
 		"start": "node .",
 		"studio": "npx prisma studio",
-		"test": "node scripts/check-i18n",
-		"__prepare": "husky install"
+		"test": "node scripts/check-i18n"
 	},
 	"commitlint": {
 		"extends": [
@@ -93,7 +92,6 @@
 		"conventional-changelog-cli": "^2.2.2",
 		"eslint": "^9.21.0",
 		"globals": "^15.15.0",
-		"husky": "^8.0.3",
 		"lint-staged": "^13.3.0",
 		"markdown-table": "^3.0.4",
 		"nodemon": "^2.0.22"
